@@ -44,6 +44,7 @@ dependencies {
     compile 'com.squareup.retrofit2:converter-gson:2.3.0'
     compile 'de.hdodenhof:circleimageview:2.2.0'
     compile 'biz.kasual:materialnumberpicker:1.2.1'
+    compile 'me.himanshusoni.chatmessageview:chat-message-view:1.0.7'
     compile 'pl.rafman.widgets:scroll-calendar:1.5.1', {
         exclude group: 'com.android.support'
     }

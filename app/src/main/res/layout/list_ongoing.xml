@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_margin="3dp"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:paddingLeft="15dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:paddingRight="5dp"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="Online Printing"
+                    android:textColor="@color/colorHitam"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="Teathers Print"
+                    android:textSize="17dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorHitam"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="Selasa, 05 Desember 2017"
+                    android:textSize="13dp"
+                    android:textColor="@color/colorHitam"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:gravity="right|center"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="Rp. 12.000"
+                    android:textSize="19dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorAccentDark"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:layout_width="100dp"
+                    android:text="PENDING"
+                    android:padding="0dp"
+                    android:textColor="@color/colorPutih"
+                    android:backgroundTint="@color/colorMerah"
+                    android:layout_height="30dp" />
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:src="@drawable/more"
+            android:id="@+id/more_ongoing"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</android.support.v7.widget.CardView>

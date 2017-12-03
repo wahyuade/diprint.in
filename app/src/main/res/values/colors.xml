@@ -9,7 +9,7 @@
     <color name="colorKuning">#FFFF00</color>
     <color name="colorHitam">#000000</color>
     <color name="colorPutih">#FFF</color>
-
+    <color name="colorMerah">#F44336</color>
     <color name="pager_bullet_active">@color/colorAccentDark</color>
     <color name="pager_bullet_inactive">@color/colorPutih</color>
 </resources>

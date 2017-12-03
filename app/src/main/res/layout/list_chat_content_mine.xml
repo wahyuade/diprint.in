@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <me.himanshusoni.chatmessageview.ChatMessageView
+        android:layout_width="wrap_content"
+        app:cmv_backgroundColor="@color/colorAccent"
+        app:cmv_backgroundColorPressed="@color/colorPrimaryDark"
+        app:cmv_cornerRadius="3dp"
+        android:id="@+id/bundle_chat"
+        android:layout_marginTop="7dp"
+        android:layout_gravity="right"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:paddingRight="10dp"
+        app:cmv_arrowPosition="right"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:textColor="@color/colorPutih"
+                android:id="@+id/content_chat"
+                android:layout_weight="1"
+
+                android:layout_marginRight="7dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:textColor="@color/colorLatar"
+                android:textSize="10dp"
+                android:layout_gravity="bottom"
+                android:id="@+id/waktu"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </me.himanshusoni.chatmessageview.ChatMessageView>
+</LinearLayout>
